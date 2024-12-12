@@ -3,6 +3,7 @@ import Navbar from "../Layout/Navbar";
 import { Box } from "@mui/material";
 import herobg from "../Images/herobg.webp";
 import Hero from "../Components/Hero";
+import Deals from "../Components/Deals";
 
 const Home = () => {
   return (
@@ -20,6 +21,8 @@ const Home = () => {
       >
         <Hero />
       </Box>
+
+      <Deals />
     </>
   );
 };

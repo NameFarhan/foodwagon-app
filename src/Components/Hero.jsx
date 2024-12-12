@@ -90,16 +90,17 @@ const Hero = () => {
                       onClick={() => setSelectedOption("Delivery")}
                       sx={{
                         fontWeight: "800",
-                        color: "grey",
+                        color:
+                          selectedOption === "Delivery" ? "#F17228" : "grey",
                         textTransform: "none",
                         padding: "10px 20px",
                         borderRadius: "8px",
                         transition: "all 0.3s ease",
+                        backgroundColor:
+                          selectedOption === "Delivery"
+                            ? "rgba(241, 114, 40, 0.2)"
+                            : "transparent",
                         "&:hover": {
-                          color: "#F17228",
-                          backgroundColor: "rgba(241, 114, 40, 0.2)",
-                        },
-                        "&.Mui-active": {
                           color: "#F17228",
                           backgroundColor: "rgba(241, 114, 40, 0.2)",
                         },
@@ -112,16 +113,16 @@ const Hero = () => {
                       onClick={() => setSelectedOption("Pickup")}
                       sx={{
                         fontWeight: "800",
-                        color: "grey",
+                        color: selectedOption === "Pickup" ? "#F17228" : "grey",
                         textTransform: "none",
                         padding: "10px 20px",
                         borderRadius: "8px",
                         transition: "all 0.3s ease",
+                        backgroundColor:
+                          selectedOption === "Pickup"
+                            ? "rgba(241, 114, 40, 0.2)"
+                            : "transparent",
                         "&:hover": {
-                          color: "#F17228",
-                          backgroundColor: "rgba(241, 114, 40, 0.2)",
-                        },
-                        "&.Mui-active": {
                           color: "#F17228",
                           backgroundColor: "rgba(241, 114, 40, 0.2)",
                         },
