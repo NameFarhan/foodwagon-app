@@ -4,6 +4,7 @@ import { Box } from "@mui/material";
 import herobg from "../Images/herobg.webp";
 import Hero from "../Components/Hero";
 import Deals from "../Components/Deals";
+import Process from "../Components/Process";
 
 const Home = () => {
   return (
@@ -21,8 +22,17 @@ const Home = () => {
       >
         <Hero />
       </Box>
-
       <Deals />
+      <Box
+        sx={{
+          background:
+            "linear-gradient(to bottom, rgba(255, 206, 103, 0.2), #fff)",
+          height: "100%", // Adjust height as needed
+          width: "100%", // Adjust width as needed
+        }}
+      >
+        <Process />
+      </Box>
     </>
   );
 };
