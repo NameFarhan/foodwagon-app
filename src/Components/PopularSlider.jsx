@@ -79,7 +79,14 @@ const PopularSlider = () => {
   ];
 
   return (
-    <Box className="popular-slider">
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+      }}
+      className="popular-slider"
+    >
       <Slider {...settings}>
         {sliderData.map((item) => (
           <Box
@@ -162,25 +169,32 @@ const PopularSlider = () => {
             >
               {item.price}
             </Typography>
-            <Button
-              variant="contained"
+            <Box
               sx={{
-                bgcolor: "#F17228",
-                color: "#fff",
-                borderRadius: "10px",
-                width: "100%",
-                fontWeight: "800",
-                fontSize: {
-                  mobile: "15px",
-                  laptop: "18px",
-                },
-                textTransform: "none",
-                boxShadow: "0px 4px 6px #F17228",
+                display: "flex",
+                justifyContent: "center",
                 marginTop: "10px",
               }}
             >
-              Order Now
-            </Button>
+              <Button
+                variant="contained"
+                sx={{
+                  bgcolor: "#F17228",
+                  color: "#fff",
+                  borderRadius: "10px",
+                  fontWeight: "800",
+                  fontSize: {
+                    mobile: "15px",
+                    laptop: "18px",
+                  },
+                  width: "100%",
+                  textTransform: "none",
+                  boxShadow: "0px 4px 6px #F17228",
+                }}
+              >
+                Order Now
+              </Button>
+            </Box>
           </Box>
         ))}
       </Slider>
