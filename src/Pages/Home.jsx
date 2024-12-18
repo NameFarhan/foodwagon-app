@@ -6,6 +6,7 @@ import Hero from "../Components/Hero";
 import Deals from "../Components/Deals";
 import Process from "../Components/Process";
 import PopularItems from "../Components/PopularItems";
+import FeaturedRestaurants from "../Components/FeaturedRestaurants";
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
         <Process />
       </Box>
       <PopularItems />
+      <FeaturedRestaurants />
     </>
   );
 };
