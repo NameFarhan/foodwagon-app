@@ -7,6 +7,7 @@ import Deals from "../Components/Deals";
 import Process from "../Components/Process";
 import PopularItems from "../Components/PopularItems";
 import FeaturedRestaurants from "../Components/FeaturedRestaurants";
+import SearchByFood from "../Components/SearchByFood";
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
       </Box>
       <PopularItems />
       <FeaturedRestaurants />
+      <SearchByFood />
     </>
   );
 };
