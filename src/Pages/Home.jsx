@@ -8,6 +8,7 @@ import Process from "../Components/Process";
 import PopularItems from "../Components/PopularItems";
 import FeaturedRestaurants from "../Components/FeaturedRestaurants";
 import SearchByFood from "../Components/SearchByFood";
+import Install from "../Components/Install";
 
 const Home = () => {
   return (
@@ -39,6 +40,7 @@ const Home = () => {
       <PopularItems />
       <FeaturedRestaurants />
       <SearchByFood />
+      <Install />
     </>
   );
 };
