@@ -9,6 +9,7 @@ import PopularItems from "../Components/PopularItems";
 import FeaturedRestaurants from "../Components/FeaturedRestaurants";
 import SearchByFood from "../Components/SearchByFood";
 import Install from "../Components/Install";
+import Offers from "../Components/Offers";
 
 const Home = () => {
   return (
@@ -41,6 +42,7 @@ const Home = () => {
       <FeaturedRestaurants />
       <SearchByFood />
       <Install />
+      <Offers />
     </>
   );
 };
