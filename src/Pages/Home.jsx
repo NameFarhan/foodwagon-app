@@ -10,6 +10,7 @@ import FeaturedRestaurants from "../Components/FeaturedRestaurants";
 import SearchByFood from "../Components/SearchByFood";
 import Install from "../Components/Install";
 import Offers from "../Components/Offers";
+import Proceed from "../Components/Procees";
 
 const Home = () => {
   return (
@@ -43,6 +44,7 @@ const Home = () => {
       <SearchByFood />
       <Install />
       <Offers />
+      <Proceed />
     </>
   );
 };

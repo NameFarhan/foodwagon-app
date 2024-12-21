@@ -21,7 +21,10 @@ const FirstOfferBox = () => {
                 laptop: "flex-start",
               },
               alignItems: "center",
-              padding: "56px 56px",
+              padding: {
+                mobile: "36px 36px",
+                laptop: "56px 56px",
+              },
               width: "100%",
               height: "100%",
             }}

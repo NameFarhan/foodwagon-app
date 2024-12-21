@@ -51,7 +51,10 @@ const SecOfferBox = () => {
               alignItems: "center",
               width: "100%",
               height: "100%",
-              padding: "56px 56px ",
+              padding: {
+                mobile: "36px 36px",
+                laptop: "56px 56px",
+              },
             }}
           >
             <Box
