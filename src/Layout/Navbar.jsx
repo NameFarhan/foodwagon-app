@@ -232,12 +232,12 @@ const Navbar = () => {
               backgroundColor: "#fff",
               color: "#FF8A00",
               textTransform: "none",
-              boxShadow: "1px 2px 20px -4px #FFB800",
+              boxShadow: "1px 2px 20px -8px #FFB800",
               fontWeight: "800",
               width: "100%",
             }}
           >
-            Login
+            Logout
           </Button>
         </Box>
       </Drawer>
@@ -246,3 +246,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
